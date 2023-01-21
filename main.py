@@ -1,7 +1,6 @@
 import random
 import math
 import sys
-from turtle import window_height, window_width
 import pygame
 import os
 
@@ -11,7 +10,7 @@ window_height=200
 pygame.init()
 window=pygame.display.set_mode((window_width,window_height))
 pygame.display.set_caption("DINO")
-g
+
 class BG:
     def __init__(self,x):
         self.width=window_width
